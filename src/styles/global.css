@@ -1,6 +1,8 @@
 :root {
   --light: #ffffff;
-  --dark: #292929;
+  --dark: #3e3e3e;
+  --grey: #f2f2f2;
+  --greyDark: #9a9a9a;
   --primaryLight: #83c0ff;
   --primary: #4a90e2;
   --primaryDark: #0063b0;
@@ -8,11 +10,20 @@
 }
 
 body {
+  padding-top: 70px;
+  color: var(--dark);
   font-family: var(--fontFamily);
-  margin: 0;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background-color: var(--grey);
+}
+
+a,
+button,
+input[type="button"] {
+  transition: all 0.4s ease;
+  outline: none;
 }

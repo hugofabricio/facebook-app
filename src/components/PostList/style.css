@@ -1,0 +1,7 @@
+.posts {
+  width: 90%;
+  max-width: 920px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+}

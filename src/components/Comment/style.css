@@ -1,0 +1,24 @@
+.comment {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.comment:last-of-type {
+  margin-bottom: 0;
+}
+
+.comment-ballon {
+  margin-left: 15px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--grey);
+}
+
+.comment-text {
+  font-size: 0.8125rem;
+}
+
+.comment .avatar {
+  width: 34px;
+  height: 34px;
+}

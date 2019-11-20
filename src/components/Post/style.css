@@ -1,0 +1,41 @@
+.post {
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-color: var(--light);
+  overflow: hidden;
+}
+
+.post:last-of-type {
+  margin-bottom: 0;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-user {
+  margin-left: 20px;
+}
+
+.post-name {
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-bottom: 5px;
+}
+
+.post-date {
+  color: var(--greyDark);
+}
+
+.post-content {
+  margin-top: 25px;
+}
+
+.post-comments {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 2px solid var(--grey);
+}
