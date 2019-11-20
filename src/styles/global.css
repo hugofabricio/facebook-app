@@ -1,0 +1,18 @@
+:root {
+  --light: #ffffff;
+  --dark: #292929;
+  --primaryLight: #83c0ff;
+  --primary: #4a90e2;
+  --primaryDark: #0063b0;
+  --fontFamily: Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--fontFamily);
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
