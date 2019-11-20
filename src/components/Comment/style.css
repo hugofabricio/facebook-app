@@ -16,6 +16,11 @@
 
 .comment-text {
   font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.comment-text span {
+  font-weight: 700;
 }
 
 .comment .avatar {

@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
-import photo from "../../assets/images/hugo.jpg";
 
-const Avatar = () => (
+const Avatar = ({ photo }) => (
   <div className="avatar">
     <img src={photo} alt="Profile Avatar" />
   </div>
