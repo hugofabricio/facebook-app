@@ -28,6 +28,7 @@
 
 .post-date {
   color: var(--greyDark);
+  font-size: 0.875rem;
 }
 
 .post-content {

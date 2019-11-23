@@ -7,3 +7,8 @@
   display: block;
   flex-shrink: 0;
 }
+
+.avatar.-tiny {
+  width: 34px;
+  height: 34px;
+}

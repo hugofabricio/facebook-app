@@ -1,6 +1,7 @@
 .comment {
   margin-bottom: 15px;
   display: flex;
+  width: 100%;
 }
 
 .comment:last-of-type {
@@ -9,6 +10,7 @@
 
 .comment-ballon {
   margin-left: 15px;
+  width: 100%;
   padding: 20px;
   border-radius: 20px;
   background-color: var(--grey);
@@ -21,9 +23,4 @@
 
 .comment-text span {
   font-weight: 700;
-}
-
-.comment .avatar {
-  width: 34px;
-  height: 34px;
 }
